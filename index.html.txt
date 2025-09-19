@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">MyName</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Hello, I'm a Developer.</h1>
+                <p class="hero-description">I build things for the web.</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <p>I'm a passionate web developer specializing in front-end technologies like HTML, CSS, and JavaScript. I enjoy creating engaging user experiences.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project One</h3>
+                    <p>A simple to-do list application.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project Two</h3>
+                    <p>A weather app using an API.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project Three</h3>
+                    <p>A simple landing page for a startup.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>You can reach me at: myemail@example.com</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 MyName. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
